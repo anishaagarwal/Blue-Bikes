@@ -1,18 +1,8 @@
-const x = 120;
+var map = L.map('map').setView([42.3601, -71.0589], 8);
 
-// happens only once!
-function setup() {
-  createCanvas(500, 400);
-  background(255, 255, 255);
-  stroke(30, 30, 220)
-  strokeWeight(3)
-  
-}
+    // set the background map tiles and add to the map
+    var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+})
 
-// happens forever! unless call noLoop() function inside
-function draw() {
-  fill(255,0,0)
-  ellipse(x,250,80)
-  fill(20,40,100)
-  ellipse(x, 15, 20)
-}
+    tiles.addTo(map);

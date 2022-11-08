@@ -1,31 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-    
-    <!-- import the hosted version of the p5.js library from a server -->
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
-    
-    <!-- include my Javascript as a sketch -->
-    <script src="./sketch.js" defer></script>
-    <title>My p5 sketch!</title>
+<html>
 
+<head>
+    <title>Leaflet GeoJSON Example</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- import leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    
+        <!-- import leaflet JS: Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+
+    <!-- import jquery so we can load a local json file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  
+    <script src="./sketch.js"></script>
   </head>
-  <body>
-    <!-- this is the start of content -->
-    <h1>
-      p5.js template
-    </h1>
-    
-    <!-- by default, p5 will automatically find the <main> tag and insert graphic here-->
-    <main>
-      
-    </main>
-    
-  </body>
+
+<body>
+    <div id="map" style="width: 800px; height: 600px"></div>
+</body>
+
 </html>
