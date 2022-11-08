@@ -7,3 +7,7 @@ const map = L.map('map').setView([42.3601, -71.0589], 8);
     
     // add tiles to the map
     tiles.addTo(map);
+
+// this is a marker that is added to Boston
+L.marker([42.3601, -71.0589]).addTo(map)
+    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
