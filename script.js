@@ -11,3 +11,10 @@ const map = L.map('map').setView([42.3601, -71.0589], 8);
 // this is a marker that is added to Boston
 L.marker([42.3601, -71.0589]).addTo(map)
     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+
+var circle = L.circle([42.3601, -71.0589], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
