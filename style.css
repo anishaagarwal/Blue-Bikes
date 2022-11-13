@@ -22,6 +22,7 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .header-text {
@@ -33,4 +34,14 @@ body {
 .header-image {
   width: 40vw;
   flex-wrap: wrap;
+}
+/* Responsive layout */
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+  .header-text{
+    width: 50vw;
+    
+  }
 }
