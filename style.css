@@ -20,7 +20,14 @@ body {
   line-height: 1.5;
 }
 
-
+.header-image{
+  background-image: url('https://cdn.glitch.global/b02841a7-a945-4a26-9247-7ca53cbe5fdc/cover?v=1668371595334');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80%;
+}
 
 .flex-container {
   display: flex;
