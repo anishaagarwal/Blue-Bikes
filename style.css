@@ -19,15 +19,18 @@ body {
   margin: 1rem;
   line-height: 1.5;
 }
-
-.header-text {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  color: #ffffff;
-  width: 40%;
+.header {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.header-image img {
-  width:50px;
+.header-text {
+  float: left;
+  width: 50vw;
+  flex-wrap: wrap;
+}
+
+.header-image {
+  width: 40vw;
+  flex-wrap: wrap;
 }
