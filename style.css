@@ -15,7 +15,6 @@ html {
 }
 
 body {
- 
   line-height: 1.5;
 }
 
@@ -25,23 +24,26 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   max-width: 100vw;
-}
-
-.right {
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 40%;
+  height: 100vh;
 }
 
 .left {
+  margin-top: 0px;
+  margin-left: 0px;
   width: 50%;
+}
+
+.right {
+  width: 40%;
+  height: 100vh;
   background-color: #fff;
   flex-wrap: wrap;
 }
 
 .header-text {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 40px;
+  flex-wrap: wrap;
 }
 .caption {
   margin-top: 50px;
@@ -65,14 +67,20 @@ body {
   .header {
     flex-direction: column;
   }
-  .header-text {
+  .right {
     width: 100vw;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .header-image {
+  .header-text {
     width: 100vw;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 20px;
   }
+}
+
+.about{
+  width: 100vw;
+  height: 40vh;
+  background-color: #B8DFF5;
+  
 }
