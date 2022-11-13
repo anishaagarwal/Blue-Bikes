@@ -21,9 +21,11 @@ body {
 
 .flex-container {
   display: flex;
+   height: 600px;
+  align-items: center;
 }
 
-.left {
+.left #map {
   flex-wrap: wrap;
   flex: 50%;
 }
