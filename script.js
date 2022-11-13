@@ -72,7 +72,7 @@ let bikes = L.geoJSON(null, {
 
 // set the filename for the geojson
 const url =
-  "/current_bluebikes";
+  "https://cdn.glitch.global/feedfe67-3b30-4f7e-bacb-65ee64aa7ecc/bikes.geojson?v=1667938381575";
 
 // Get GeoJSON data using jQuery and create features.
 // then attach the data to the variable we created above
