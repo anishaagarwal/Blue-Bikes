@@ -21,8 +21,9 @@ body {
 
 .flex-container {
   display: flex;
-   height: 600px;
+  height: 600px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .left #map {
