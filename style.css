@@ -45,16 +45,20 @@ body {
   margin-left: 40px;
   flex-wrap: wrap;
 }
-.caption {
+/* .caption {
   margin-top: 50px;
   font-size: 1em;
   color: #2ca3e1;
   font-weight: 500;
-}
+} */
 
 .header-text h1 {
   font-size: 3em;
   line-height: 1.3;
+  color: #1c428a;
+}
+.midtext {
+  font-size: 1.5em;
 }
 .smallText {
   margin-top: 50px;
@@ -78,9 +82,17 @@ body {
   }
 }
 
-.about{
+.about {
   width: 100vw;
   height: 40vh;
-  background-color: #B8DFF5;
-  
+  background-color: #b8dff5;
+}
+
+.about p {
+  margin: auto;
+  width: 70%;
+  font-size: 2em;
+  font-weight: 300;
+  padding: 10px;
+  text-align: center;
 }
