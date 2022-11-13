@@ -21,17 +21,15 @@ body {
 }
 
 .header {
-  display: flex;
+  max-width: 100%;
 }
 
 .header-text {
-float: left;
-  width: 50%;
+ display: inline-block;
 }
 
 .header-image {
-float: right;
-  width: 50%;
+ display: inline-block;
 }
 
 /* body .header-image {
@@ -43,7 +41,7 @@ float: right;
   height: 80%;
 }
  */
-.flex-container {
+/* .flex-container {
   display: flex;
   height: 600px;
   align-items: center;
@@ -65,7 +63,7 @@ float: right;
   .right {
     flex: 100%;
   }
-}
+} */
 
 /* images and videos max out at full width */
 
