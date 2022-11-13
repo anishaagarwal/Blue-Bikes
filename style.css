@@ -19,21 +19,22 @@ body {
   margin: 1rem;
   line-height: 1.5;
 }
+
 .header {
   display: flex;
-  height: 800px;
 }
 
 .header-text {
-  flex-wrap: wrap;
-  flex: 50%;
-}
-.header-image {
-  flex-wrap: wrap;
-  flex: 50%;
+float: left;
+  width: 50%;
 }
 
-body .header-image {
+.header-image {
+float: right;
+  width: 50%;
+}
+
+/* body .header-image {
   background-image: url("https://cdn.glitch.global/b02841a7-a945-4a26-9247-7ca53cbe5fdc/cover.png?v=1668371595334");
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +42,7 @@ body .header-image {
   position: relative;
   height: 80%;
 }
-
+ */
 .flex-container {
   display: flex;
   height: 600px;
