@@ -19,6 +19,18 @@ body {
   color: white;
 }
 
+.flex-container{
+  display:flex;
+}
+
+.left{
+  flex-wrap: wrap;
+}
+
+.right{
+  flex-wrap: wrap;
+}
+
 /* images and videos max out at full width */
 
 
