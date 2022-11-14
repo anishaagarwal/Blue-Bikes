@@ -58,6 +58,9 @@ const tiles = L.tileLayer(
 
 // add tiles to the map
 tiles.addTo(map);
+L.marker([42.3398, -71.0892])
+  .addTo(map)
+  .bindPopup("A pretty CSS3 popup.<br> Easily customizable.");
 
 // add a tooltip when feature is clicked mentioning districk, station name and no. of docks
 function everyFeaturePopup(feature, layer) {
