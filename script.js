@@ -97,6 +97,30 @@ let bikes = L.geoJSON(null, {
     } else {
       geojsonMarkerOptions.radius = 3;
     }
+    
+     // create a new geojson layer and add the pointToLayer function, which will loop thru each feature in the data and return a circle marker
+      let bikes = L.geoJSON(null, {
+        onEachFeature: everyFeaturePopup,
+        pointToLayer: function (feature, latlng) {
+          if (feature.properties["District"] == "Cambridge") {
+            geojsonMarkerOptions.fillColor = "blue"
+          } else {
+            geojsonMarkerOptions.fillColor = "orange"
+          }
+          
+          if (feature.properties["Total docks"] > 20) {
+            geojsonMarkerOptions.radius = 15
+          } else if (feature.properties["Total docks"] <= 20 && feature.properties["Total docks"] > 12) {
+            geojsonMarkerOptions.radius = 10
+          } 
+          else {
+            geojsonMarkerOptions.radius = 5
+          }
+      
+          // circle marker takes two args: position and styling
+            return L.circleMarker(latlng, geojsonMarkerOptions);
+        }
+    });
 
     // circle marker takes two args: position and styling
     return L.circleMarker(latlng, geojsonMarkerOptions);

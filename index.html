@@ -83,23 +83,16 @@
         we've taken more than 13 million trips by bike.
       </p>
     </div>
-    
-    
-     <!-- inserting graph showcasing bluebike usage in 2021-->
+
+    <!-- inserting graph showcasing bluebike usage in 2021-->
     <div class="graph1">
-       <p class="caption">Do I need it?</p>
-        <h2>Bluebike daily trips in 2021</h2>
+      <p class="caption">Do I need it?</p>
+      <h2>Bluebike daily trips in 2021</h2>
 
-        <p>
-          Check out the patter of trips taken by the bluebike in 2021.
-        </p>
-    <div id="vis1">
-      
-      </div>
-
-      
+      <p>Check out the patter of trips taken by the bluebike in 2021.</p>
+      <div id="vis1"></div>
     </div>
-   
+
     <!-- inserting 1st map showing docks of bluebikes-->
 
     <div class="flex-container">
@@ -116,15 +109,21 @@
         <div class="select">
           <label for="area">Choose district:</label>
 
-<select name="district" id="district">
-  <option value="">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select>
-          
+          <select onchange="myFunction()" name="district" id="district">
+            <option value="Arlington">Arlington</option>
+            <option value="Boston">Boston</option>
+            <option value="Brookline">Brookline</option>
+            <option value="Cambridge">Cambridge</option>
+            <option value="Everett">Everett</option>
+            <option value="Malden">Malden</option>
+            <option value="Medford">Medford</option>
+            <option value="Newton">Newton</option>
+            <option value="Revere">Revere</option>
+            <option value="Salem">Salem</option>
+            <option value="Somerville">Somerville</option>
+            <option value="Watertown">Watertown</option>
+          </select>
         </div>
-        
       </div>
     </div>
   </body>
