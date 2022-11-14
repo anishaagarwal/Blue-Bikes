@@ -3,7 +3,7 @@
 
 // var vlSpec = {
 //   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-//   data: { url: "/seattle-weather.csv" },
+//   data: { url: "/January-bluebikes-tripdata.csv" },
 //   mark: "bar",
 //   encoding: {
 //     x: {
