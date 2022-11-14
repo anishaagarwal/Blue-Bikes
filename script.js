@@ -1,48 +1,48 @@
 // Vis 1: Daily trips in 2021
 //Assign the specification to a local variable vlSpec.
 
-var vlSpec = {
-  $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  data: { url: "/seattle-weather.csv" },
-  mark: "bar",
-  encoding: {
-    x: {
-      timeUnit: "month",
-      field: "date",
-      type: "ordinal",
-    },
-    y: {
-      aggregate: "count",
-      type: "quantitative",
-    },
-    color: {
-      field: "weather",
-      type: "nominal",
-    },
-  },
-};
-var vlSpec2 = {
-  $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  data: { url: "/seattle-weather.csv" },
-  mark: "bar",
-  encoding: {
-    x: {
-      timeUnit: "month",
-      field: "date",
-      type: "ordinal",
-    },
-    y: {
-      aggregate: "count",
-      type: "quantitative",
-    },
-    color: {
-      field: "weather",
-      type: "nominal",
-    },
-  },
-};
+// var vlSpec = {
+//   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+//   data: { url: "/seattle-weather.csv" },
+//   mark: "bar",
+//   encoding: {
+//     x: {
+//       timeUnit: "month",
+//       field: "date",
+//       type: "ordinal",
+//     },
+//     y: {
+//       aggregate: "count",
+//       type: "quantitative",
+//     },
+//     color: {
+//       field: "weather",
+//       type: "nominal",
+//     },
+//   },
+// };
+// var vlSpec2 = {
+//   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+//   data: { url: "/seattle-weather.csv" },
+//   mark: "bar",
+//   encoding: {
+//     x: {
+//       timeUnit: "month",
+//       field: "date",
+//       type: "ordinal",
+//     },
+//     y: {
+//       aggregate: "count",
+//       type: "quantitative",
+//     },
+//     color: {
+//       field: "weather",
+//       type: "nominal",
+//     },
+//   },
+// };
 
-vegaEmbed("#vis1", vlSpec);
+// vegaEmbed("#vis1", vlSpec);
 
 // Viz 2: Map locating availabilities of blurbird with no. of docks
 //set the background map tiles and add to the map
