@@ -3,7 +3,7 @@
 
 var vlSpec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  data: { url: "/2021_TotalTrips" },
+  data: { url: "/Total_trips_2021.csv" },
   mark: "bar",
   encoding: {
     x: {
@@ -13,13 +13,10 @@ var vlSpec = {
     },
     y: {
       aggregate: "count",
-      field: "Total Trips",
+      field: "TotalTrips",
       type: "quantitative",
     },
-    color: {
-      field: "Date",
-      type: "nominal",
-    },
+ 
   },
 };
 
