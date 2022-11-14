@@ -60,7 +60,13 @@ const tiles = L.tileLayer(
 tiles.addTo(map);
 L.marker([42.3398, -71.0892])
   .addTo(map)
-  .bindPopup("A pretty CSS3 popup.<br> Easily customizable.");
+  .bindPopup("This is your school.<br>Northeastern University.");
+var circle = L.circle([42.3398, -71.0892], {
+  color: "#4A3BE1",
+  fillColor: "#4A3BE1",
+  fillOpacity: 0.5,
+  radius: 500,
+}).addTo(map);
 
 // add a tooltip when feature is clicked mentioning districk, station name and no. of docks
 function everyFeaturePopup(feature, layer) {
