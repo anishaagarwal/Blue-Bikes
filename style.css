@@ -69,7 +69,8 @@ body {
 /* Responsive layout for header*/
 @media (max-width: 600px) {
   .header {
-    flex-direction: column;
+    display: block;
+/*     flex-direction: column; */
   }
   .header .left {
     width: 100%;
@@ -85,7 +86,7 @@ body {
 
 .about {
   width: 100vw;
-  height: 40vh;
+/*   height: 40vh; */
   background-color: #b8dff5;
 }
 
