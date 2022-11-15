@@ -3,7 +3,7 @@
 
 var vlSpec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  data: { url: "/Total_trips_2021.csv" },
+  data: { url: "./Total_trips_2021.csv" },
   mark: "bar",
   encoding: {
     x: {
