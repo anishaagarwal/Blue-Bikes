@@ -46,7 +46,7 @@ var v2Spec = {
 vegaEmbed("#vis1", vlSpec);
 vegaEmbed("#vis2", v2Spec);
 
-// Viz 2: Map locating availabilities of blurbird with no. of docks
+// Viz 2: Map locating availabilities of bluebird with no. of docks
 //set the background map tiles and add to the map
 const map = L.map("map").setView([42.3601, -71.0589], 8);
 const tiles = L.tileLayer(
