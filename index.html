@@ -36,12 +36,7 @@
   <body>
     <!-- Creating a nested div for header of the page-->
     <div class="header">
-      <div class="left">
-<!--         <img
-          src="https://cdn.glitch.global/b02841a7-a945-4a26-9247-7ca53cbe5fdc/1.jpeg?v=1668372213020"
-          alt="coverimage"
-        /> -->
-      </div>
+      <div class="left"></div>
       <div class="right">
         <div class="header-text">
           <img
@@ -75,6 +70,11 @@
     <!-- inserting an about section-->
 
     <div class="about">
+      <div class="text">
+        
+      <h1>
+            About
+          </h1>
       <p>
         Bluebikes is your
         <i><span class="highlight">public bike share</span> </i>system in
@@ -82,29 +82,32 @@
         Medford, Newton, Revere, Salem, Somerville, and Watertown. Together,
         we've taken more than 13 million trips by bike.
       </p>
+        </div>
     </div>
-    
+
     <div class="flex-graphs">
+      
+      <!-- inserting graph showcasing bluebike usage in 2021-->
+      <div class="graph1" style="width: 50vw">
+        <p class="caption">What's the freqiuency of use</p>
+        <h2>Bluebike daily trips in 2021</h2>
 
-    <!-- inserting graph showcasing bluebike usage in 2021-->
-    <div class="graph1" style="width: 50vw">
-      <p class="caption">What's the freqiuency of use</p>
-      <h2>Bluebike daily trips in 2021</h2>
+        <p>Check out the patter of trips taken by the bluebike in 2021.</p>
+        <div id="vis1"></div>
+      </div>
 
-      <p>Check out the patter of trips taken by the bluebike in 2021.</p>
-      <div id="vis1"></div>
+      <!-- inserting graph showcasing bluebike usage in 2021-->
+      <div class="graph2" style="width: 50vw">
+        <p class="caption">
+          Which is the most popular day of the week for bluebikes?
+        </p>
+        <h2>Bluebike daily trips in 2021</h2>
+
+        <p>Check out the pattern of trips taken by the bluebike in 2021.</p>
+        <div id="vis2"></div>
+      </div>
     </div>
 
-     <!-- inserting graph showcasing bluebike usage in 2021-->
-    <div class="graph2" style="width: 50vw">
-      <p class="caption">Which is the most popular day of the week for bluebikes? </p>
-      <h2>Bluebike daily trips in 2021</h2>
-
-      <p>Check out the pattern of trips taken by the bluebike in 2021.</p>
-      <div id="vis2"></div>
-    </div>
-    </div>
-    
     <!-- inserting 1st map showing docks of bluebikes-->
 
     <div class="flex-container">

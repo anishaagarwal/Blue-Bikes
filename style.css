@@ -22,13 +22,13 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
-  width:100vw;
+  width: 100vw;
 }
 
 .header .left {
   width: 50vw;
-    height:600px;
-  background-image: url('https://cdn.glitch.global/b02841a7-a945-4a26-9247-7ca53cbe5fdc/cover.png?v=1669150003978');
+  height: 600px;
+  background-image: url("https://cdn.glitch.global/b02841a7-a945-4a26-9247-7ca53cbe5fdc/cover.png?v=1669150003978");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -82,22 +82,46 @@ body {
 
 .about {
   width: 100vw;
-  /*   height: 40vh; */
   background-color: #b8dff5;
+}
+.about .text {
+  width: 100vw;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  text-align: left;
+  background-color: #b8dff5;
+}
+.about h1 {
+  margin-top: 100px;
+  font-size: 2em;
+  line-height: 1.3;
+  color: #1c428a;
 }
 
 .about p {
-  margin: auto;
-  width: 70%;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 300;
-  padding: 10px;
-  text-align: center;
+  margin-bottom: 100px;
 }
 
 .highlight {
   color: #1c428a;
   font-weight: 400;
+}
+
+/* Styling graph 1 and 2*/
+
+.flex-graphs {
+  display: flex;
+  margin-top: 100px;
+}
+
+.graph1 {
+  margin-left: 5vw;
+}
+.graph2 {
+  margin-right: 5vw;
 }
 
 /* Styling map showcasing docks*/
@@ -114,18 +138,4 @@ body {
 .flex-container .right {
   padding-left: 50px;
   width: 30vw;
-}
-
-/* Styling graph 1 and 2*/
-
-.flex-graphs {
-  display: flex;
-  margin-top: 100px;
-}
-
-.graph1 {
-  margin-left: 5vw;
-}
-.graph2 {
-  margin-right: 5vw;
 }
