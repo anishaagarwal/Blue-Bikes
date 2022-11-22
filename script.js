@@ -7,7 +7,7 @@ var vlSpec = {
   mark: "bar",
   encoding: {
     x: {
-      timeUnit: "month",
+      timeUnit: "day",
       field: "Date",
       type: "ordinal",
     },
