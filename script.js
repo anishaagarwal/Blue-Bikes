@@ -4,20 +4,20 @@
 var vlSpec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: { url: "./data.json" },
-  // width: 600,
   mark: "bar",
+  width: 500,
   encoding: {
     x: {
       timeUnit: "month",
       field: "Date",
-      type: "temporal",
-      title:"Days by Month (2021)",
+      type: "ordinal",
+      title:"Months (2021)",
     },
     y: {
-      aggregate: "count",
+      aggregate: "sum",
       field: "Total Trips",
       type: "quantitative",
-      title:"Total trips",
+      title:"Total trips taken",
     },
   },
 };
@@ -25,7 +25,6 @@ var vlSpec = {
 var v2Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: { url: "./data.json" },
-  // width: 600,
   mark: "bar",
   encoding: {
     x: {
