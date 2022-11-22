@@ -26,15 +26,16 @@ var v2Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: { url: "./data.json" },
   mark: "bar",
+   width: 500,
   encoding: {
     x: {
-      timeUnit: "month",
+      timeUnit: "day",
       field: "Date",
-      type: "temporal",
+      type: "ordinal",
       title:"Days by Month (2021)",
     },
     y: {
-      aggregate: "count",
+      aggregate: "sum",
       field: "Total Trips",
       type: "quantitative",
       title:"Total trips",
