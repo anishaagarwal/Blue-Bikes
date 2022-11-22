@@ -4,7 +4,28 @@
 var vlSpec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: { url: "./data.json" },
-  width: 600,
+  // width: 600,
+  mark: "bar",
+  encoding: {
+    x: {
+      timeUnit: "month",
+      field: "Date",
+      type: "temporal",
+      title:"Days by Month (2021)",
+    },
+    y: {
+      aggregate: "count",
+      field: "Total Trips",
+      type: "quantitative",
+      title:"Total trips",
+    },
+  },
+};
+
+var v2Spec = {
+  $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+  data: { url: "./data.json" },
+  // width: 600,
   mark: "bar",
   encoding: {
     x: {
@@ -23,6 +44,7 @@ var vlSpec = {
 };
 
 vegaEmbed("#vis1", vlSpec);
+vegaEmbed("#vis2", v2Spec);
 
 // Viz 2: Map locating availabilities of blurbird with no. of docks
 //set the background map tiles and add to the map
