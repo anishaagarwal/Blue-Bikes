@@ -87,6 +87,8 @@ function everyFeaturePopup(feature, layer) {
   layer.bindPopup(popupContent);
 }
 
+// get docks depending on district selected 
+
 // style object applies to all markers
 const geojsonMarkerOptions = {
   radius: 3,
