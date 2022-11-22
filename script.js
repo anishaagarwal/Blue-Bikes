@@ -3,13 +3,14 @@
 
 var vlSpec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  data: { url: "./Total_trips_2021.csv" },
+  data: { url: "./data.json" },
+  width: 600,
   mark: "bar",
   encoding: {
     x: {
-      timeUnit: "day",
+      timeUnit: "month",
       field: "Date",
-      type: "ordinal",
+      type: "temporal",
       title:"Days by Month (2021)",
     },
     y: {

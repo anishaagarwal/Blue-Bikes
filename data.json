@@ -1,0 +1,1462 @@
+[
+  {
+    "Date": "2021-01-01",
+    "Total Trips": 1894
+  },
+  {
+    "Date": "2021-01-02",
+    "Total Trips": 1720
+  },
+  {
+    "Date": "2021-01-03",
+    "Total Trips": 1485
+  },
+  {
+    "Date": "2021-01-04",
+    "Total Trips": 1923
+  },
+  {
+    "Date": "2021-01-05",
+    "Total Trips": 2028
+  },
+  {
+    "Date": "2021-01-06",
+    "Total Trips": 2296
+  },
+  {
+    "Date": "2021-01-07",
+    "Total Trips": 2550
+  },
+  {
+    "Date": "2021-01-08",
+    "Total Trips": 2598
+  },
+  {
+    "Date": "2021-01-09",
+    "Total Trips": 2541
+  },
+  {
+    "Date": "2021-01-10",
+    "Total Trips": 2473
+  },
+  {
+    "Date": "2021-01-11",
+    "Total Trips": 2455
+  },
+  {
+    "Date": "2021-01-12",
+    "Total Trips": 2790
+  },
+  {
+    "Date": "2021-01-13",
+    "Total Trips": 2913
+  },
+  {
+    "Date": "2021-01-14",
+    "Total Trips": 2231
+  },
+  {
+    "Date": "2021-01-15",
+    "Total Trips": 2983
+  },
+  {
+    "Date": "2021-01-16",
+    "Total Trips": 2318
+  },
+  {
+    "Date": "2021-01-17",
+    "Total Trips": 2793
+  },
+  {
+    "Date": "2021-01-18",
+    "Total Trips": 3197
+  },
+  {
+    "Date": "2021-01-19",
+    "Total Trips": 2908
+  },
+  {
+    "Date": "2021-01-20",
+    "Total Trips": 2860
+  },
+  {
+    "Date": "2021-01-21",
+    "Total Trips": 2610
+  },
+  {
+    "Date": "2021-01-22",
+    "Total Trips": 3257
+  },
+  {
+    "Date": "2021-01-23",
+    "Total Trips": 2723
+  },
+  {
+    "Date": "2021-01-24",
+    "Total Trips": 1692
+  },
+  {
+    "Date": "2021-01-25",
+    "Total Trips": 2613
+  },
+  {
+    "Date": "2021-01-26",
+    "Total Trips": 2539
+  },
+  {
+    "Date": "2021-01-27",
+    "Total Trips": 1330
+  },
+  {
+    "Date": "2021-01-28",
+    "Total Trips": 1775
+  },
+  {
+    "Date": "2021-01-29",
+    "Total Trips": 1371
+  },
+  {
+    "Date": "2021-01-30",
+    "Total Trips": 1362
+  },
+  {
+    "Date": "2021-01-31",
+    "Total Trips": 1577
+  },
+  {
+    "Date": "2021-02-01",
+    "Total Trips": 1387
+  },
+  {
+    "Date": "2021-02-02",
+    "Total Trips": 858
+  },
+  {
+    "Date": "2021-02-03",
+    "Total Trips": 2059
+  },
+  {
+    "Date": "2021-02-04",
+    "Total Trips": 2546
+  },
+  {
+    "Date": "2021-02-05",
+    "Total Trips": 2625
+  },
+  {
+    "Date": "2021-02-06",
+    "Total Trips": 3146
+  },
+  {
+    "Date": "2021-02-07",
+    "Total Trips": 1254
+  },
+  {
+    "Date": "2021-02-08",
+    "Total Trips": 1482
+  },
+  {
+    "Date": "2021-02-09",
+    "Total Trips": 1427
+  },
+  {
+    "Date": "2021-02-10",
+    "Total Trips": 2001
+  },
+  {
+    "Date": "2021-02-11",
+    "Total Trips": 2387
+  },
+  {
+    "Date": "2021-02-12",
+    "Total Trips": 2219
+  },
+  {
+    "Date": "2021-02-13",
+    "Total Trips": 2317
+  },
+  {
+    "Date": "2021-02-14",
+    "Total Trips": 2065
+  },
+  {
+    "Date": "2021-02-15",
+    "Total Trips": 1708
+  },
+  {
+    "Date": "2021-02-16",
+    "Total Trips": 1476
+  },
+  {
+    "Date": "2021-02-17",
+    "Total Trips": 2357
+  },
+  {
+    "Date": "2021-02-18",
+    "Total Trips": 2131
+  },
+  {
+    "Date": "2021-02-19",
+    "Total Trips": 985
+  },
+  {
+    "Date": "2021-02-20",
+    "Total Trips": 1696
+  },
+  {
+    "Date": "2021-02-21",
+    "Total Trips": 2215
+  },
+  {
+    "Date": "2021-02-22",
+    "Total Trips": 1834
+  },
+  {
+    "Date": "2021-02-23",
+    "Total Trips": 2677
+  },
+  {
+    "Date": "2021-02-24",
+    "Total Trips": 3480
+  },
+  {
+    "Date": "2021-02-25",
+    "Total Trips": 3292
+  },
+  {
+    "Date": "2021-02-26",
+    "Total Trips": 3479
+  },
+  {
+    "Date": "2021-02-27",
+    "Total Trips": 2025
+  },
+  {
+    "Date": "2021-02-28",
+    "Total Trips": 3319
+  },
+  {
+    "Date": "2021-03-01",
+    "Total Trips": 2498
+  },
+  {
+    "Date": "2021-03-02",
+    "Total Trips": 1841
+  },
+  {
+    "Date": "2021-03-03",
+    "Total Trips": 3236
+  },
+  {
+    "Date": "2021-03-04",
+    "Total Trips": 3219
+  },
+  {
+    "Date": "2021-03-05",
+    "Total Trips": 2774
+  },
+  {
+    "Date": "2021-03-06",
+    "Total Trips": 3122
+  },
+  {
+    "Date": "2021-03-07",
+    "Total Trips": 2960
+  },
+  {
+    "Date": "2021-03-08",
+    "Total Trips": 2932
+  },
+  {
+    "Date": "2021-03-09",
+    "Total Trips": 4327
+  },
+  {
+    "Date": "2021-03-10",
+    "Total Trips": 4259
+  },
+  {
+    "Date": "2021-03-11",
+    "Total Trips": 5681
+  },
+  {
+    "Date": "2021-03-12",
+    "Total Trips": 6491
+  },
+  {
+    "Date": "2021-03-13",
+    "Total Trips": 5099
+  },
+  {
+    "Date": "2021-03-14",
+    "Total Trips": 2975
+  },
+  {
+    "Date": "2021-03-15",
+    "Total Trips": 2006
+  },
+  {
+    "Date": "2021-03-16",
+    "Total Trips": 2965
+  },
+  {
+    "Date": "2021-03-17",
+    "Total Trips": 4413
+  },
+  {
+    "Date": "2021-03-18",
+    "Total Trips": 2926
+  },
+  {
+    "Date": "2021-03-19",
+    "Total Trips": 3558
+  },
+  {
+    "Date": "2021-03-20",
+    "Total Trips": 7010
+  },
+  {
+    "Date": "2021-03-21",
+    "Total Trips": 7879
+  },
+  {
+    "Date": "2021-03-22",
+    "Total Trips": 5142
+  },
+  {
+    "Date": "2021-03-23",
+    "Total Trips": 5555
+  },
+  {
+    "Date": "2021-03-24",
+    "Total Trips": 5454
+  },
+  {
+    "Date": "2021-03-25",
+    "Total Trips": 5562
+  },
+  {
+    "Date": "2021-03-26",
+    "Total Trips": 6438
+  },
+  {
+    "Date": "2021-03-27",
+    "Total Trips": 9726
+  },
+  {
+    "Date": "2021-03-28",
+    "Total Trips": 2748
+  },
+  {
+    "Date": "2021-03-29",
+    "Total Trips": 4034
+  },
+  {
+    "Date": "2021-03-30",
+    "Total Trips": 5594
+  },
+  {
+    "Date": "2021-03-31",
+    "Total Trips": 6622
+  },
+  {
+    "Date": "2021-04-01",
+    "Total Trips": 3383
+  },
+  {
+    "Date": "2021-04-02",
+    "Total Trips": 4477
+  },
+  {
+    "Date": "2021-04-03",
+    "Total Trips": 5958
+  },
+  {
+    "Date": "2021-04-04",
+    "Total Trips": 6214
+  },
+  {
+    "Date": "2021-04-05",
+    "Total Trips": 4597
+  },
+  {
+    "Date": "2021-04-06",
+    "Total Trips": 5698
+  },
+  {
+    "Date": "2021-04-07",
+    "Total Trips": 5950
+  },
+  {
+    "Date": "2021-04-08",
+    "Total Trips": 6440
+  },
+  {
+    "Date": "2021-04-09",
+    "Total Trips": 7825
+  },
+  {
+    "Date": "2021-04-10",
+    "Total Trips": 12517
+  },
+  {
+    "Date": "2021-04-11",
+    "Total Trips": 6407
+  },
+  {
+    "Date": "2021-04-12",
+    "Total Trips": 4613
+  },
+  {
+    "Date": "2021-04-13",
+    "Total Trips": 5884
+  },
+  {
+    "Date": "2021-04-14",
+    "Total Trips": 6488
+  },
+  {
+    "Date": "2021-04-15",
+    "Total Trips": 4949
+  },
+  {
+    "Date": "2021-04-16",
+    "Total Trips": 1170
+  },
+  {
+    "Date": "2021-04-17",
+    "Total Trips": 4335
+  },
+  {
+    "Date": "2021-04-18",
+    "Total Trips": 8230
+  },
+  {
+    "Date": "2021-04-19",
+    "Total Trips": 7568
+  },
+  {
+    "Date": "2021-04-20",
+    "Total Trips": 8934
+  },
+  {
+    "Date": "2021-04-21",
+    "Total Trips": 5380
+  },
+  {
+    "Date": "2021-04-22",
+    "Total Trips": 4638
+  },
+  {
+    "Date": "2021-04-23",
+    "Total Trips": 6605
+  },
+  {
+    "Date": "2021-04-24",
+    "Total Trips": 13839
+  },
+  {
+    "Date": "2021-04-25",
+    "Total Trips": 6115
+  },
+  {
+    "Date": "2021-04-26",
+    "Total Trips": 5898
+  },
+  {
+    "Date": "2021-04-27",
+    "Total Trips": 6999
+  },
+  {
+    "Date": "2021-04-28",
+    "Total Trips": 6740
+  },
+  {
+    "Date": "2021-04-29",
+    "Total Trips": 3467
+  },
+  {
+    "Date": "2021-04-30",
+    "Total Trips": 6498
+  },
+  {
+    "Date": "2021-05-01",
+    "Total Trips": 10075
+  },
+  {
+    "Date": "2021-05-02",
+    "Total Trips": 10623
+  },
+  {
+    "Date": "2021-05-03",
+    "Total Trips": 7060
+  },
+  {
+    "Date": "2021-05-04",
+    "Total Trips": 4402
+  },
+  {
+    "Date": "2021-05-05",
+    "Total Trips": 3929
+  },
+  {
+    "Date": "2021-05-06",
+    "Total Trips": 8570
+  },
+  {
+    "Date": "2021-05-07",
+    "Total Trips": 9085
+  },
+  {
+    "Date": "2021-05-08",
+    "Total Trips": 8390
+  },
+  {
+    "Date": "2021-05-09",
+    "Total Trips": 9666
+  },
+  {
+    "Date": "2021-05-10",
+    "Total Trips": 6553
+  },
+  {
+    "Date": "2021-05-11",
+    "Total Trips": 8513
+  },
+  {
+    "Date": "2021-05-12",
+    "Total Trips": 8529
+  },
+  {
+    "Date": "2021-05-13",
+    "Total Trips": 9352
+  },
+  {
+    "Date": "2021-05-14",
+    "Total Trips": 10836
+  },
+  {
+    "Date": "2021-05-15",
+    "Total Trips": 13935
+  },
+  {
+    "Date": "2021-05-16",
+    "Total Trips": 11355
+  },
+  {
+    "Date": "2021-05-17",
+    "Total Trips": 8948
+  },
+  {
+    "Date": "2021-05-18",
+    "Total Trips": 9867
+  },
+  {
+    "Date": "2021-05-19",
+    "Total Trips": 9966
+  },
+  {
+    "Date": "2021-05-20",
+    "Total Trips": 10199
+  },
+  {
+    "Date": "2021-05-21",
+    "Total Trips": 10963
+  },
+  {
+    "Date": "2021-05-22",
+    "Total Trips": 12135
+  },
+  {
+    "Date": "2021-05-23",
+    "Total Trips": 10881
+  },
+  {
+    "Date": "2021-05-24",
+    "Total Trips": 9007
+  },
+  {
+    "Date": "2021-05-25",
+    "Total Trips": 9339
+  },
+  {
+    "Date": "2021-05-26",
+    "Total Trips": 9631
+  },
+  {
+    "Date": "2021-05-27",
+    "Total Trips": 9636
+  },
+  {
+    "Date": "2021-05-28",
+    "Total Trips": 8847
+  },
+  {
+    "Date": "2021-05-29",
+    "Total Trips": 2243
+  },
+  {
+    "Date": "2021-05-30",
+    "Total Trips": 3167
+  },
+  {
+    "Date": "2021-05-31",
+    "Total Trips": 5191
+  },
+  {
+    "Date": "2021-06-01",
+    "Total Trips": 8806
+  },
+  {
+    "Date": "2021-06-02",
+    "Total Trips": 9293
+  },
+  {
+    "Date": "2021-06-03",
+    "Total Trips": 9404
+  },
+  {
+    "Date": "2021-06-04",
+    "Total Trips": 8741
+  },
+  {
+    "Date": "2021-06-05",
+    "Total Trips": 12038
+  },
+  {
+    "Date": "2021-06-06",
+    "Total Trips": 10251
+  },
+  {
+    "Date": "2021-06-07",
+    "Total Trips": 8569
+  },
+  {
+    "Date": "2021-06-08",
+    "Total Trips": 8553
+  },
+  {
+    "Date": "2021-06-09",
+    "Total Trips": 9635
+  },
+  {
+    "Date": "2021-06-10",
+    "Total Trips": 11594
+  },
+  {
+    "Date": "2021-06-11",
+    "Total Trips": 11133
+  },
+  {
+    "Date": "2021-06-12",
+    "Total Trips": 12002
+  },
+  {
+    "Date": "2021-06-13",
+    "Total Trips": 13099
+  },
+  {
+    "Date": "2021-06-14",
+    "Total Trips": 5885
+  },
+  {
+    "Date": "2021-06-15",
+    "Total Trips": 9092
+  },
+  {
+    "Date": "2021-06-16",
+    "Total Trips": 11269
+  },
+  {
+    "Date": "2021-06-17",
+    "Total Trips": 11470
+  },
+  {
+    "Date": "2021-06-18",
+    "Total Trips": 12423
+  },
+  {
+    "Date": "2021-06-19",
+    "Total Trips": 12384
+  },
+  {
+    "Date": "2021-06-20",
+    "Total Trips": 11082
+  },
+  {
+    "Date": "2021-06-21",
+    "Total Trips": 9972
+  },
+  {
+    "Date": "2021-06-22",
+    "Total Trips": 7305
+  },
+  {
+    "Date": "2021-06-23",
+    "Total Trips": 10652
+  },
+  {
+    "Date": "2021-06-24",
+    "Total Trips": 12008
+  },
+  {
+    "Date": "2021-06-25",
+    "Total Trips": 11196
+  },
+  {
+    "Date": "2021-06-26",
+    "Total Trips": 14166
+  },
+  {
+    "Date": "2021-06-27",
+    "Total Trips": 12276
+  },
+  {
+    "Date": "2021-06-28",
+    "Total Trips": 9353
+  },
+  {
+    "Date": "2021-06-29",
+    "Total Trips": 9481
+  },
+  {
+    "Date": "2021-06-30",
+    "Total Trips": 8837
+  },
+  {
+    "Date": "2021-07-01",
+    "Total Trips": 8640
+  },
+  {
+    "Date": "2021-07-02",
+    "Total Trips": 5239
+  },
+  {
+    "Date": "2021-07-03",
+    "Total Trips": 3306
+  },
+  {
+    "Date": "2021-07-04",
+    "Total Trips": 6703
+  },
+  {
+    "Date": "2021-07-05",
+    "Total Trips": 10878
+  },
+  {
+    "Date": "2021-07-06",
+    "Total Trips": 8497
+  },
+  {
+    "Date": "2021-07-07",
+    "Total Trips": 9508
+  },
+  {
+    "Date": "2021-07-08",
+    "Total Trips": 8779
+  },
+  {
+    "Date": "2021-07-09",
+    "Total Trips": 4827
+  },
+  {
+    "Date": "2021-07-10",
+    "Total Trips": 12903
+  },
+  {
+    "Date": "2021-07-11",
+    "Total Trips": 11996
+  },
+  {
+    "Date": "2021-07-12",
+    "Total Trips": 5932
+  },
+  {
+    "Date": "2021-07-13",
+    "Total Trips": 10122
+  },
+  {
+    "Date": "2021-07-14",
+    "Total Trips": 10730
+  },
+  {
+    "Date": "2021-07-15",
+    "Total Trips": 11881
+  },
+  {
+    "Date": "2021-07-16",
+    "Total Trips": 10951
+  },
+  {
+    "Date": "2021-07-17",
+    "Total Trips": 11343
+  },
+  {
+    "Date": "2021-07-18",
+    "Total Trips": 7229
+  },
+  {
+    "Date": "2021-07-19",
+    "Total Trips": 8894
+  },
+  {
+    "Date": "2021-07-20",
+    "Total Trips": 11407
+  },
+  {
+    "Date": "2021-07-21",
+    "Total Trips": 11489
+  },
+  {
+    "Date": "2021-07-22",
+    "Total Trips": 12082
+  },
+  {
+    "Date": "2021-07-23",
+    "Total Trips": 12480
+  },
+  {
+    "Date": "2021-07-24",
+    "Total Trips": 15262
+  },
+  {
+    "Date": "2021-07-25",
+    "Total Trips": 9406
+  },
+  {
+    "Date": "2021-07-26",
+    "Total Trips": 10237
+  },
+  {
+    "Date": "2021-07-27",
+    "Total Trips": 11099
+  },
+  {
+    "Date": "2021-07-28",
+    "Total Trips": 10912
+  },
+  {
+    "Date": "2021-07-29",
+    "Total Trips": 10717
+  },
+  {
+    "Date": "2021-07-30",
+    "Total Trips": 11914
+  },
+  {
+    "Date": "2021-07-31",
+    "Total Trips": 14040
+  },
+  {
+    "Date": "2021-08-01",
+    "Total Trips": 12602
+  },
+  {
+    "Date": "2021-08-02",
+    "Total Trips": 10924
+  },
+  {
+    "Date": "2021-08-03",
+    "Total Trips": 11866
+  },
+  {
+    "Date": "2021-08-04",
+    "Total Trips": 11267
+  },
+  {
+    "Date": "2021-08-05",
+    "Total Trips": 5596
+  },
+  {
+    "Date": "2021-08-06",
+    "Total Trips": 12204
+  },
+  {
+    "Date": "2021-08-07",
+    "Total Trips": 13612
+  },
+  {
+    "Date": "2021-08-08",
+    "Total Trips": 12175
+  },
+  {
+    "Date": "2021-08-09",
+    "Total Trips": 10341
+  },
+  {
+    "Date": "2021-08-10",
+    "Total Trips": 10299
+  },
+  {
+    "Date": "2021-08-11",
+    "Total Trips": 11978
+  },
+  {
+    "Date": "2021-08-12",
+    "Total Trips": 10718
+  },
+  {
+    "Date": "2021-08-13",
+    "Total Trips": 11206
+  },
+  {
+    "Date": "2021-08-14",
+    "Total Trips": 12188
+  },
+  {
+    "Date": "2021-08-15",
+    "Total Trips": 13537
+  },
+  {
+    "Date": "2021-08-16",
+    "Total Trips": 11737
+  },
+  {
+    "Date": "2021-08-17",
+    "Total Trips": 11719
+  },
+  {
+    "Date": "2021-08-18",
+    "Total Trips": 11850
+  },
+  {
+    "Date": "2021-08-19",
+    "Total Trips": 7998
+  },
+  {
+    "Date": "2021-08-20",
+    "Total Trips": 11423
+  },
+  {
+    "Date": "2021-08-21",
+    "Total Trips": 14276
+  },
+  {
+    "Date": "2021-08-22",
+    "Total Trips": 6411
+  },
+  {
+    "Date": "2021-08-23",
+    "Total Trips": 8668
+  },
+  {
+    "Date": "2021-08-24",
+    "Total Trips": 10842
+  },
+  {
+    "Date": "2021-08-25",
+    "Total Trips": 12376
+  },
+  {
+    "Date": "2021-08-26",
+    "Total Trips": 12225
+  },
+  {
+    "Date": "2021-08-27",
+    "Total Trips": 13514
+  },
+  {
+    "Date": "2021-08-28",
+    "Total Trips": 14721
+  },
+  {
+    "Date": "2021-08-29",
+    "Total Trips": 12409
+  },
+  {
+    "Date": "2021-08-30",
+    "Total Trips": 13037
+  },
+  {
+    "Date": "2021-08-31",
+    "Total Trips": 13619
+  },
+  {
+    "Date": "2021-09-01",
+    "Total Trips": 8824
+  },
+  {
+    "Date": "2021-09-02",
+    "Total Trips": 11431
+  },
+  {
+    "Date": "2021-09-03",
+    "Total Trips": 15425
+  },
+  {
+    "Date": "2021-09-04",
+    "Total Trips": 16255
+  },
+  {
+    "Date": "2021-09-05",
+    "Total Trips": 12459
+  },
+  {
+    "Date": "2021-09-06",
+    "Total Trips": 15087
+  },
+  {
+    "Date": "2021-09-07",
+    "Total Trips": 15376
+  },
+  {
+    "Date": "2021-09-08",
+    "Total Trips": 15105
+  },
+  {
+    "Date": "2021-09-09",
+    "Total Trips": 9337
+  },
+  {
+    "Date": "2021-09-10",
+    "Total Trips": 14450
+  },
+  {
+    "Date": "2021-09-11",
+    "Total Trips": 17952
+  },
+  {
+    "Date": "2021-09-12",
+    "Total Trips": 16642
+  },
+  {
+    "Date": "2021-09-13",
+    "Total Trips": 14209
+  },
+  {
+    "Date": "2021-09-14",
+    "Total Trips": 15021
+  },
+  {
+    "Date": "2021-09-15",
+    "Total Trips": 15120
+  },
+  {
+    "Date": "2021-09-16",
+    "Total Trips": 12854
+  },
+  {
+    "Date": "2021-09-17",
+    "Total Trips": 15061
+  },
+  {
+    "Date": "2021-09-18",
+    "Total Trips": 17225
+  },
+  {
+    "Date": "2021-09-19",
+    "Total Trips": 16543
+  },
+  {
+    "Date": "2021-09-20",
+    "Total Trips": 13986
+  },
+  {
+    "Date": "2021-09-21",
+    "Total Trips": 15136
+  },
+  {
+    "Date": "2021-09-22",
+    "Total Trips": 14943
+  },
+  {
+    "Date": "2021-09-23",
+    "Total Trips": 15110
+  },
+  {
+    "Date": "2021-09-24",
+    "Total Trips": 14632
+  },
+  {
+    "Date": "2021-09-25",
+    "Total Trips": 18178
+  },
+  {
+    "Date": "2021-09-26",
+    "Total Trips": 16100
+  },
+  {
+    "Date": "2021-09-27",
+    "Total Trips": 13700
+  },
+  {
+    "Date": "2021-09-28",
+    "Total Trips": 8681
+  },
+  {
+    "Date": "2021-09-29",
+    "Total Trips": 13648
+  },
+  {
+    "Date": "2021-09-30",
+    "Total Trips": 13764
+  },
+  {
+    "Date": "2021-10-01",
+    "Total Trips": 14959
+  },
+  {
+    "Date": "2021-10-02",
+    "Total Trips": 16806
+  },
+  {
+    "Date": "2021-10-03",
+    "Total Trips": 13797
+  },
+  {
+    "Date": "2021-10-04",
+    "Total Trips": 6221
+  },
+  {
+    "Date": "2021-10-05",
+    "Total Trips": 11047
+  },
+  {
+    "Date": "2021-10-06",
+    "Total Trips": 14687
+  },
+  {
+    "Date": "2021-10-07",
+    "Total Trips": 14376
+  },
+  {
+    "Date": "2021-10-08",
+    "Total Trips": 15943
+  },
+  {
+    "Date": "2021-10-09",
+    "Total Trips": 14732
+  },
+  {
+    "Date": "2021-10-10",
+    "Total Trips": 14418
+  },
+  {
+    "Date": "2021-10-11",
+    "Total Trips": 14917
+  },
+  {
+    "Date": "2021-10-12",
+    "Total Trips": 14240
+  },
+  {
+    "Date": "2021-10-13",
+    "Total Trips": 14703
+  },
+  {
+    "Date": "2021-10-14",
+    "Total Trips": 14914
+  },
+  {
+    "Date": "2021-10-15",
+    "Total Trips": 16076
+  },
+  {
+    "Date": "2021-10-16",
+    "Total Trips": 17752
+  },
+  {
+    "Date": "2021-10-17",
+    "Total Trips": 13967
+  },
+  {
+    "Date": "2021-10-18",
+    "Total Trips": 11994
+  },
+  {
+    "Date": "2021-10-19",
+    "Total Trips": 13163
+  },
+  {
+    "Date": "2021-10-20",
+    "Total Trips": 14167
+  },
+  {
+    "Date": "2021-10-21",
+    "Total Trips": 14648
+  },
+  {
+    "Date": "2021-10-22",
+    "Total Trips": 15480
+  },
+  {
+    "Date": "2021-10-23",
+    "Total Trips": 16598
+  },
+  {
+    "Date": "2021-10-24",
+    "Total Trips": 13826
+  },
+  {
+    "Date": "2021-10-25",
+    "Total Trips": 6309
+  },
+  {
+    "Date": "2021-10-26",
+    "Total Trips": 5445
+  },
+  {
+    "Date": "2021-10-27",
+    "Total Trips": 4766
+  },
+  {
+    "Date": "2021-10-28",
+    "Total Trips": 10478
+  },
+  {
+    "Date": "2021-10-29",
+    "Total Trips": 11210
+  },
+  {
+    "Date": "2021-10-30",
+    "Total Trips": 6577
+  },
+  {
+    "Date": "2021-10-31",
+    "Total Trips": 10966
+  },
+  {
+    "Date": "2021-11-01",
+    "Total Trips": 10909
+  },
+  {
+    "Date": "2021-11-02",
+    "Total Trips": 11003
+  },
+  {
+    "Date": "2021-11-03",
+    "Total Trips": 10969
+  },
+  {
+    "Date": "2021-11-04",
+    "Total Trips": 10387
+  },
+  {
+    "Date": "2021-11-05",
+    "Total Trips": 10567
+  },
+  {
+    "Date": "2021-11-06",
+    "Total Trips": 10946
+  },
+  {
+    "Date": "2021-11-07",
+    "Total Trips": 9876
+  },
+  {
+    "Date": "2021-11-08",
+    "Total Trips": 9472
+  },
+  {
+    "Date": "2021-11-09",
+    "Total Trips": 11196
+  },
+  {
+    "Date": "2021-11-10",
+    "Total Trips": 11450
+  },
+  {
+    "Date": "2021-11-11",
+    "Total Trips": 10884
+  },
+  {
+    "Date": "2021-11-12",
+    "Total Trips": 5916
+  },
+  {
+    "Date": "2021-11-13",
+    "Total Trips": 11263
+  },
+  {
+    "Date": "2021-11-14",
+    "Total Trips": 8708
+  },
+  {
+    "Date": "2021-11-15",
+    "Total Trips": 8100
+  },
+  {
+    "Date": "2021-11-16",
+    "Total Trips": 8694
+  },
+  {
+    "Date": "2021-11-17",
+    "Total Trips": 8936
+  },
+  {
+    "Date": "2021-11-18",
+    "Total Trips": 11244
+  },
+  {
+    "Date": "2021-11-19",
+    "Total Trips": 9539
+  },
+  {
+    "Date": "2021-11-20",
+    "Total Trips": 8166
+  },
+  {
+    "Date": "2021-11-21",
+    "Total Trips": 7755
+  },
+  {
+    "Date": "2021-11-22",
+    "Total Trips": 6572
+  },
+  {
+    "Date": "2021-11-23",
+    "Total Trips": 6742
+  },
+  {
+    "Date": "2021-11-24",
+    "Total Trips": 5438
+  },
+  {
+    "Date": "2021-11-25",
+    "Total Trips": 3818
+  },
+  {
+    "Date": "2021-11-26",
+    "Total Trips": 2832
+  },
+  {
+    "Date": "2021-11-27",
+    "Total Trips": 3476
+  },
+  {
+    "Date": "2021-11-28",
+    "Total Trips": 3883
+  },
+  {
+    "Date": "2021-11-29",
+    "Total Trips": 5662
+  },
+  {
+    "Date": "2021-11-30",
+    "Total Trips": 6522
+  },
+  {
+    "Date": "2021-12-01",
+    "Total Trips": 7281
+  },
+  {
+    "Date": "2021-12-02",
+    "Total Trips": 7541
+  },
+  {
+    "Date": "2021-12-03",
+    "Total Trips": 7329
+  },
+  {
+    "Date": "2021-12-04",
+    "Total Trips": 6964
+  },
+  {
+    "Date": "2021-12-05",
+    "Total Trips": 6753
+  },
+  {
+    "Date": "2021-12-06",
+    "Total Trips": 6492
+  },
+  {
+    "Date": "2021-12-07",
+    "Total Trips": 5380
+  },
+  {
+    "Date": "2021-12-08",
+    "Total Trips": 6318
+  },
+  {
+    "Date": "2021-12-09",
+    "Total Trips": 5454
+  },
+  {
+    "Date": "2021-12-10",
+    "Total Trips": 6539
+  },
+  {
+    "Date": "2021-12-11",
+    "Total Trips": 4691
+  },
+  {
+    "Date": "2021-12-12",
+    "Total Trips": 6064
+  },
+  {
+    "Date": "2021-12-13",
+    "Total Trips": 6086
+  },
+  {
+    "Date": "2021-12-14",
+    "Total Trips": 6710
+  },
+  {
+    "Date": "2021-12-15",
+    "Total Trips": 6207
+  },
+  {
+    "Date": "2021-12-16",
+    "Total Trips": 6168
+  },
+  {
+    "Date": "2021-12-17",
+    "Total Trips": 7386
+  },
+  {
+    "Date": "2021-12-18",
+    "Total Trips": 3551
+  },
+  {
+    "Date": "2021-12-19",
+    "Total Trips": 2400
+  },
+  {
+    "Date": "2021-12-20",
+    "Total Trips": 3104
+  },
+  {
+    "Date": "2021-12-21",
+    "Total Trips": 3807
+  },
+  {
+    "Date": "2021-12-22",
+    "Total Trips": 2834
+  },
+  {
+    "Date": "2021-12-23",
+    "Total Trips": 2576
+  },
+  {
+    "Date": "2021-12-24",
+    "Total Trips": 1409
+  },
+  {
+    "Date": "2021-12-25",
+    "Total Trips": 466
+  },
+  {
+    "Date": "2021-12-26",
+    "Total Trips": 1391
+  },
+  {
+    "Date": "2021-12-27",
+    "Total Trips": 2185
+  },
+  {
+    "Date": "2021-12-28",
+    "Total Trips": 2413
+  },
+  {
+    "Date": "2021-12-29",
+    "Total Trips": 2864
+  },
+  {
+    "Date": "2021-12-30",
+    "Total Trips": 2191
+  },
+  {
+    "Date": "2021-12-31",
+    "Total Trips": 2746
+  }
+]
