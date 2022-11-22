@@ -10,11 +10,13 @@ var vlSpec = {
       timeUnit: "day",
       field: "Date",
       type: "ordinal",
+      title:"Days by Month (2021)",
     },
     y: {
       aggregate: "count",
       field: "Total Trips",
       type: "quantitative",
+      title:"Total trips",
     },
   },
 };
