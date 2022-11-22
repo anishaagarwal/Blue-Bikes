@@ -22,19 +22,15 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
+  width:100vw;
 }
 
 .header .left {
   width: 50vw;
-  height: auto;
-  background-image: url('img_flowers.jpg');
+    height:600px;
+  background-image: url('https://cdn.glitch.global/b02841a7-a945-4a26-9247-7ca53cbe5fdc/cover.png?v=1669150003978');
   background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.left img {
-  width: 100%;
-  height: auto;
+  background-size: cover;
 }
 
 .header .right {
@@ -74,12 +70,11 @@ body {
   .header {
     display: block;
   }
-  .header .left img {
+  .header .left {
     width: 100vw;
   }
   .header .right {
     width: 100vw;
-
   }
 }
 
