@@ -11,13 +11,13 @@ var vlSpec = {
       timeUnit: "month",
       field: "Date",
       type: "ordinal",
-      title:"Months (2021)",
+      title: "Months (2021)",
     },
     y: {
       aggregate: "sum",
       field: "Total Trips",
       type: "quantitative",
-      title:"Total trips taken",
+      title: "Total trips taken",
     },
   },
 };
@@ -29,19 +29,19 @@ var v2Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: { url: "./data.json" },
   mark: "bar",
-   width: 500,
+  width: 500,
   encoding: {
     x: {
       timeUnit: "day",
       field: "Date",
       type: "ordinal",
-      title:"Days by Month (2021)",
+      title: "Days by Month (2021)",
     },
     y: {
       aggregate: "sum",
       field: "Total Trips",
       type: "quantitative",
-      title:"Total trips",
+      title: "Total trips",
     },
   },
 };
@@ -90,7 +90,7 @@ function everyFeaturePopup(feature, layer) {
   layer.bindPopup(popupContent);
 }
 
-// get docks depending on district selected 
+// get docks depending on district selected
 
 // style object applies to all markers
 const geojsonMarkerOptions = {
@@ -176,96 +176,19 @@ bikes.addTo(map);
 
 var v3Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-   "width": 800,
-  "height": 500,
-  "layer": [
+  width: 800,
+  height: 500,
+  layer: [
     {
-      "data": {
-        "url": "data/us-10m.json",
-        "format": {
-          "type": "topojson",
-          "feature": "states"
-        }
+      data: {
+        url: "data/us-10m.json",
+        format: {
+          type: "topojson",
+          feature: "states",
+        },
       },
-      "projection": {
-        "type": "albersUsa"
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white"
-      }
     },
-    {
-      "data": {
-        "url": "data/airports.csv"
-      },
-      "projection": {
-        "type": "albersUsa"
-      },
-      "mark": "circle",
-      "encoding": {
-        "longitude": {
-          "field": "longitude",
-          "type": "quantitative"
-        },
-        "latitude": {
-          "field": "latitude",
-          "type": "quantitative"
-        },
-        "size": {"value": 5},
-        "color": {"value": "gray"}
-      }
-    },
-    {
-      "data": {
-        "url": "data/flights-airport.csv"
-      },
-      "transform": [
-        {"filter": {"field": "origin", "equal": "SEA"}},
-        {
-          "lookup": "origin",
-          "from": {
-            "data": {
-              "url": "data/airports.csv"
-            },
-            "key": "iata",
-            "fields": ["latitude", "longitude"]
-          },
-          "as": ["origin_latitude", "origin_longitude"]
-        },
-        {
-          "lookup": "destination",
-          "from": {
-            "data": {
-              "url": "data/airports.csv"
-            },
-            "key": "iata",
-            "fields": ["latitude", "longitude"]
-          },
-          "as": ["dest_latitude", "dest_longitude"]
-        }
-      ],
-      "projection": {
-        "type": "albersUsa"
-      },
-      "mark": "rule",
-      "encoding": {
-        "longitude": {
-          "field": "origin_longitude",
-          "type": "quantitative"
-        },
-        "latitude": {
-          "field": "origin_latitude",
-          "type": "quantitative"
-        },
-        "longitude2": {"field": "dest_longitude"},
-        "latitude2": {"field": "dest_latitude"}
-      }
-    }
-  ]
-}
+  ],
+};
 
-  
 vegaEmbed("#vis3", v3Spec);
-
