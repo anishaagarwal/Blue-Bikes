@@ -195,7 +195,7 @@ var v3Spec = {
       field: "start station latitude",
       type: "quantitative",
     },
-    size: { value: 5 },
+    size: { value: 10 },
     color: { field: "District", type: "nominal" },
   },
 };
@@ -208,7 +208,7 @@ var v4Spec = {
   width: 600,
   height: 400,
   transform: [
-    //   {"filter": "datum.Entity !== 'All natural disasters'"}
+      {"filter": "datum.District!== 'All trips'"}
   ],
   mark: {
     type: "circle",
@@ -226,12 +226,11 @@ var v4Spec = {
     y: { field: "District", type: "nominal", axis: { title: "District" } },
     size: {
       aggregate: "sum",
-
       field: "Total trips",
       type: "quantitative",
       title: "Total Trips",
-      "legend": {"clipHeight": 30},
-      "scale": {"rangeMax": 5000}
+      legend: { clipHeight: 30 },
+      scale: { rangeMax: 5000 },
     },
     color: { field: "District", type: "nominal", legend: null },
   },
