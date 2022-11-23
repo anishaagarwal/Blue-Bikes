@@ -176,7 +176,7 @@ bikes.addTo(map);
 
 var v3Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  // width: 800,
+  width: 400,
   // height: 500,
   data: {
     url: "./data_commute.json",
@@ -199,6 +199,7 @@ var v3Spec = {
 
 var v4Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+  width: 400,
   data: {
     url: "./districtwise_trips.json",
   },
