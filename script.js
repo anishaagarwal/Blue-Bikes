@@ -179,7 +179,7 @@ var v3Spec = {
   width: 800,
   height: 500,
    "data": {
-    "url": "data_commute.json"
+    "url": "./data_commute.json"
   },
   // "transform": [{"calculate": "substring(datum.District, 0, 1)", "as": "digit"}],
   // "projection": {
@@ -204,7 +204,7 @@ var v3Spec = {
 var v4Spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "data_commute.json"
+    "url": "./data_commute.json"
   },
   "width": 600,
   "height": 400,
@@ -226,11 +226,12 @@ var v4Spec = {
     },
     "y": {"field": "District", "type": "nominal", "axis": {"title": "District"}},
     "size": {
-      "field": "District",
+      aggregate: "sum",
+      "field": "frequency",
       "type": "quantitative",
       "title": "Total Trips",
-      "legend": {"clipHeight": 30},
-      "scale": {"rangeMax": 5000}
+      // "legend": {"clipHeight": 30},
+      // "scale": {"rangeMax": 5000}
     },
     "color": {"field": "usertype", "type": "nominal", "legend": null}
   }
