@@ -181,10 +181,10 @@ var v3Spec = {
    "data": {
     "url": "data_commute.json"
   },
-  "transform": [{"calculate": "substring(datum.District, 0, 1)", "as": "digit"}],
-  "projection": {
-    "type": "albersUsa"
-  },
+  // "transform": [{"calculate": "substring(datum.District, 0, 1)", "as": "digit"}],
+  // "projection": {
+  //   "type": "albersUsa"
+  // },
   "mark": "circle",
   "encoding": {
     "longitude": {
