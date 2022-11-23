@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
 }
 
-/* Style header */
+/* Style header using flexbox with image on the left and text on the right */
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -78,12 +78,12 @@ body {
   }
 }
 
-/* Styling about section*/
+/* Styling the buffer section*/
 
 .buffer {
   width: 100vw;
   background-color: #f4f4f4;
-  padding-bottom:100px; 
+  padding-bottom: 100px;
 }
 .buffer .text {
   width: 100vw;
@@ -99,8 +99,8 @@ body {
   color: #1c428a;
 }
 
-.buffer .stops ul{
-    font-size: 1.5em;
+.buffer .stops ul {
+  font-size: 1.5em;
   font-weight: 300;
 }
 
@@ -114,7 +114,7 @@ body {
   font-weight: 400;
 }
 
-/* Styling graph 1 and 2*/
+/* Styling graph 1 and 2 using flexbox to place them side by side*/
 
 .flex-graphs {
   width: 100vw;
@@ -135,10 +135,12 @@ body {
   flex-wrap: wrap;
 }
 
-.hyperlink{
+/* Link to python file, mentioned under every visualization*/
+
+.hyperlink {
   margin-top: 2vh;
   font-size: 0.8em;
-  color:#7A7A7A;
+  color: #7a7a7a;
   font-weight: 500;
 }
 
@@ -177,7 +179,7 @@ body {
   width: 30vw;
 }
 
-/* Responsive layout for graph 3*/
+/* Responsive layout for map*/
 @media (max-width: 700px) {
   .flex-container {
     max-width: 100vw;
@@ -196,13 +198,27 @@ body {
 }
 
 /* Styling graph 3*/
-.graph3{
+.graph3 {
   margin-left: 5vw;
-  
 }
 
 /* Styling graph 4*/
-.graph4{
+.graph4 {
   margin-left: 5vw;
-  
+}
+
+/* Responsive layout for graph 3&4*/
+@media (max-width: 700px) {
+  .flex-container {
+    max-width: 100vw;
+    display: block;
+  }
+.graph3 {
+    width: 100vw;
+    margin-bottom: 100px;
+  }
+  .graph4 {
+    width: 100vw;
+  }
+
 }
