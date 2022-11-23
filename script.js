@@ -3,7 +3,7 @@
 
 var vlSpec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  data: { url: "./data.json" },
+  data: { url: "./Totaltrips_2021.json" },
   mark: "bar",
   width: 500,
   encoding: {
@@ -27,7 +27,7 @@ var vlSpec = {
 
 var v2Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  data: { url: "./data.json" },
+  data: { url: "./Totaltrips_2021.json" },
   mark: "bar",
   width: 500,
   encoding: {
@@ -207,9 +207,7 @@ var v4Spec = {
   },
   width: 600,
   height: 400,
-  transform: [
-      {"filter": "datum.District!== 'All trips'"}
-  ],
+  transform: [{ filter: "datum.District!== 'All trips'" }],
   mark: {
     type: "circle",
     opacity: 0.8,
