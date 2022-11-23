@@ -203,11 +203,11 @@ var v3Spec = {
 var v4Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: {
-    url: "./district_trips.json",
+    url: "./districtwise_trips.json",
   },
   width: 600,
   height: 400,
-  transform: [{ filter: "datum.District!== 'All trips'" }],
+  // transform: [{ filter: "datum.District!== 'All trips'" }],
   mark: {
     type: "circle",
     opacity: 0.8,
