@@ -178,66 +178,64 @@ var v3Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   width: 800,
   height: 500,
-   "data": {
-    "url": "./data_commute.json"
+  data: {
+    url: "./data_commute.json",
   },
   // "transform": [{"calculate": "substring(datum.District, 0, 1)", "as": "digit"}],
   // "projection": {
   //   "type": "albersUsa"
   // },
-  "mark": "circle",
-  "encoding": {
-    "longitude": {
-      "field": "start station longitude",
-      "type": "quantitative"
+  mark: "circle",
+  encoding: {
+    longitude: {
+      field: "start station longitude",
+      type: "quantitative",
     },
-    "latitude": {
-      "field": "start station latitude",
-      "type": "quantitative"
+    latitude: {
+      field: "start station latitude",
+      type: "quantitative",
     },
-    "size": {"value": 5},
-    "color": {"field": "District", "type": "nominal"}
-  }
-
-}
+    size: { value: 5 },
+    color: { field: "District", type: "nominal" },
+  },
+};
 
 var v4Spec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {
-    "url": "./district_trips.json"
+  $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+  data: {
+    url: "./district_trips.json",
   },
-  "width": 600,
-  "height": 400,
-  "transform": [
-  //   {"filter": "datum.Entity !== 'All natural disasters'"}
+  width: 600,
+  height: 400,
+  transform: [
+    //   {"filter": "datum.Entity !== 'All natural disasters'"}
   ],
-  "mark": {
-    "type": "circle",
-    "opacity": 0.8,
-    "stroke": "black",
-    "strokeWidth": 1
+  mark: {
+    type: "circle",
+    opacity: 0.8,
+    stroke: "black",
+    strokeWidth: 1,
   },
-  "encoding": {
-    "x": {
+  encoding: {
+    x: {
       timeUnit: "month",
-      "field": "Date",
-      "type": "ordinal",
-      "axis": {"grid": false}
+      field: "Date",
+      type: "ordinal",
+      axis: { grid: false },
     },
-    "y": {"field": "District", "type": "nominal", "axis": {"title": "District"}},
-    "size": {
-      
-      "field": "Total trips",
-      "type": "quantitative",
-      "title": "Total Trips",
-      // "legend": {"clipHeight": 30},
-      // "scale": {"rangeMax": 5000}
-    },
-    "color": {"field": "District", "type": "nominal", "legend": null}
-  }
-}
+    y: { field: "District", type: "nominal", axis: { title: "District" } },
+    size: {
+      aggregate: "sum",
 
- 
+      field: "Total trips",
+      type: "quantitative",
+      title: "Total Trips",
+      "legend": {"clipHeight": 30},
+      "scale": {"rangeMax": 5000}
+    },
+    color: { field: "District", type: "nominal", legend: null },
+  },
+};
 
 vegaEmbed("#vis3", v3Spec);
 vegaEmbed("#vis4", v4Spec);
