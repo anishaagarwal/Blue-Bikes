@@ -219,15 +219,16 @@ var v4Spec = {
   },
   "encoding": {
     "x": {
+      timeUnit: "month",
       "field": "date",
-      "type": "temporal",
+      "type": "ordinal",
       "axis": {"grid": false}
     },
     "y": {"field": "District", "type": "nominal", "axis": {"title": "District"}},
     "size": {
       "field": "District",
       "type": "quantitative",
-      "title": "Annual Global Deaths",
+      "title": "Total Trips",
       "legend": {"clipHeight": 30},
       "scale": {"rangeMax": 5000}
     },
