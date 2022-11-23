@@ -178,17 +178,28 @@ var v3Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   width: 800,
   height: 500,
-  layer: [
-    {
-      data: {
-        url: "data/us-10m.json",
-        format: {
-          type: "topojson",
-          feature: "states",
-        },
-      },
+   "data": {
+    "url": "data_commute.json"
+  },
+  "transform": [{"calculate": "substring(datum.zip_code, 0, 1)", "as": "digit"}],
+  "projection": {
+    "type": "albersUsa"
+  },
+  "mark": "circle",
+  "encoding": {
+    "longitude": {
+      "field": "start station longitude",
+      "type": "quantitative"
     },
-  ],
-};
+    "latitude": {
+      "field": "start station latitude",
+      "type": "quantitative"
+    },
+    "size": {"value": 1},
+    "color": {"field": "digit", "type": "nominal"}
+  }
+
+}
+ 
 
 vegaEmbed("#vis3", v3Spec);
