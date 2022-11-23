@@ -204,7 +204,7 @@ var v3Spec = {
 var v4Spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "./data_commute.json"
+    "url": "./district_trips.json"
   },
   "width": 600,
   "height": 400,
@@ -220,20 +220,20 @@ var v4Spec = {
   "encoding": {
     "x": {
       timeUnit: "month",
-      "field": "date",
+      "field": "Date",
       "type": "ordinal",
       "axis": {"grid": false}
     },
     "y": {"field": "District", "type": "nominal", "axis": {"title": "District"}},
     "size": {
       
-      "field": "frequency",
+      "field": "Total trips",
       "type": "quantitative",
       "title": "Total Trips",
       // "legend": {"clipHeight": 30},
       // "scale": {"rangeMax": 5000}
     },
-    "color": {"field": "usertype", "type": "nominal", "legend": null}
+    "color": {"field": "District", "type": "nominal", "legend": null}
   }
 }
 
