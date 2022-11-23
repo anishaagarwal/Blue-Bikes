@@ -1,4 +1,4 @@
-// Vis 1: Daily trips in 2021
+// Vis 1: Montly trips in 2021
 //Assign the specification to a local variable vlSpec.
 
 var vlSpec = {
@@ -21,6 +21,9 @@ var vlSpec = {
     },
   },
 };
+
+// Vis 2: Weekly trips in 2021
+//Assign the specification to a local variable v2Spec.
 
 var v2Spec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
@@ -168,13 +171,101 @@ $.getJSON(url, function (dataFromJson) {
 // add features to the map
 bikes.addTo(map);
 
-// // this is a marker that is added to Boston
-// L.marker([42.3601, -71.0589]).addTo(map)
-//     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+// Vis 4: Where do commuters come from data
+//Assign the specification to a local variable v3Spec.
 
-// var circle = L.circle([42.3601, -71.0589], {
-//     color: 'red',
-//     fillColor: '#f03',
-//     fillOpacity: 0.5,
-//     radius: 500
-// }).addTo(map);
+var v3Spec = {
+  $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+   "width": 800,
+  "height": 500,
+  "layer": [
+    {
+      "data": {
+        "url": "data/us-10m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "states"
+        }
+      },
+      "projection": {
+        "type": "albersUsa"
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white"
+      }
+    },
+    {
+      "data": {
+        "url": "data/airports.csv"
+      },
+      "projection": {
+        "type": "albersUsa"
+      },
+      "mark": "circle",
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "size": {"value": 5},
+        "color": {"value": "gray"}
+      }
+    },
+    {
+      "data": {
+        "url": "data/flights-airport.csv"
+      },
+      "transform": [
+        {"filter": {"field": "origin", "equal": "SEA"}},
+        {
+          "lookup": "origin",
+          "from": {
+            "data": {
+              "url": "data/airports.csv"
+            },
+            "key": "iata",
+            "fields": ["latitude", "longitude"]
+          },
+          "as": ["origin_latitude", "origin_longitude"]
+        },
+        {
+          "lookup": "destination",
+          "from": {
+            "data": {
+              "url": "data/airports.csv"
+            },
+            "key": "iata",
+            "fields": ["latitude", "longitude"]
+          },
+          "as": ["dest_latitude", "dest_longitude"]
+        }
+      ],
+      "projection": {
+        "type": "albersUsa"
+      },
+      "mark": "rule",
+      "encoding": {
+        "longitude": {
+          "field": "origin_longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "origin_latitude",
+          "type": "quantitative"
+        },
+        "longitude2": {"field": "dest_longitude"},
+        "latitude2": {"field": "dest_latitude"}
+      }
+    }
+  ]
+}
+
+  
+vegaEmbed("#vis3", v3Spec);
+
