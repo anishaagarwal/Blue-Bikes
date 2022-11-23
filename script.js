@@ -226,7 +226,7 @@ var v4Spec = {
     },
     "y": {"field": "District", "type": "nominal", "axis": {"title": "District"}},
     "size": {
-      aggregate: "sum",
+      
       "field": "frequency",
       "type": "quantitative",
       "title": "Total Trips",
