@@ -181,7 +181,7 @@ var v3Spec = {
    "data": {
     "url": "data_commute.json"
   },
-  "transform": [{"calculate": "substring(datum.zip_code, 0, 1)", "as": "digit"}],
+  "transform": [{"calculate": "substring(datum.District, 0, 1)", "as": "digit"}],
   "projection": {
     "type": "albersUsa"
   },
@@ -195,8 +195,8 @@ var v3Spec = {
       "field": "start station latitude",
       "type": "quantitative"
     },
-    "size": {"value": 1},
-    "color": {"field": "digit", "type": "nominal"}
+    "size": {"value": 5},
+    "color": {"field": "District", "type": "nominal"}
   }
 
 }
